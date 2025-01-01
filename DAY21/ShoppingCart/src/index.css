@@ -1,0 +1,17 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  margin: 10px;
+}
