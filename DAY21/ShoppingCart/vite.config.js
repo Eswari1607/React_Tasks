@@ -3,10 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'/Guvi_React_Tasks/',
+  base:'/ReactTasks/',
   plugins: [react()],
-  build: { outDir: 'dist' },
-  resolve: { alias: { '@': '/src' 
-  }
-  }
-})
+  build: { outDir: 'dist' }, resolve: { alias: { '@': '/src' } }
+  
+  })
