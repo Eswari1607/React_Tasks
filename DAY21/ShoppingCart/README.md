@@ -96,6 +96,4 @@ Currently, two official plugins are available:
 
 Material-UI is used for building a responsive and modern user interface.
 
-- Documentation: [https://mui.com/](https://mui.com/)
-
-By adding this section, users will have a clear understanding of the technical stack and the tools used in your project. This can be particularly helpful for developers who want to contribute or customize the project further. 🌸💐 Happy coding! 🚀
+- Documentation: [https://mui.com/](https://mui.com/);
