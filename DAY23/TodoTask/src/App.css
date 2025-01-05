@@ -1,0 +1,188 @@
+/* App.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #28a745; /* Added to style all <h> tags with green color */
+}
+
+.todo-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 30%;
+  flex: 1;
+  border-radius: 5px;
+  border: 2px solid #28a745; 
+}
+
+.add-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border-color: #28a745;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #218838;
+  
+}
+
+.todo-list {
+  display: flex;
+  flex-wrap: wrap;  /* Allow items to wrap */
+  gap: 20px; /* Increased gap between items */
+  width: 100%;
+  justify-content: center; /* Center the items */
+}
+
+.todo-item {
+  border: 2px solid green; /* Updated border color to green */
+  padding: 30px; /* Increased padding for larger box */
+  border-radius: 5px;
+  position: relative;
+  background-color: #e8f5e9; /* Light green background */
+  text-align: left; /* Align text to the left */
+  width: 45%; /* Ensure each todo item takes 45% width for larger size */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+  display: flex;
+  flex-direction: column; /* Stack the content vertically */
+}
+
+.todo-details {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #333;
+  font-size: 14px;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-self: flex-end; 
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.todo-item h3 {
+  margin: 0;
+  color: #333;
+}
+
+.todo-item p {
+  margin: 5px 0;
+  color: #333;
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.status-dropdown {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 55px;
+  
+}
+
+.status-dropdown select {
+  margin-left: 10px;
+  padding: 5px;
+  color: white;
+  
+}
+
+.dropdown-icon {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.todo-filter {
+  display: flex;
+  align-items: center;
+  
+}
+
+.todo-filter span {
+  margin-right: 10px;
+  font-size: 16px;
+  color:#333;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.todos {
+  font-size: 18px;
+  color:#333;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.filter-dropdown {
+  padding: 10px;
+  font-size: 10px;
+  width: 109px;
+  color: white;
+  border: 'none';
+  border-radius:5px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-color: none;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button.edit {
+  background-color: #28a745;
+  color: white;
+}
+
+button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.edit:hover {
+  background-color: #218838;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}

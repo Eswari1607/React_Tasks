@@ -1,0 +1,63 @@
+body, html {
+  height: 100%;
+  background-color:cornflowerblue;
+  margin: 0;
+  display: flex;
+  justify-content: center;  /* Centers the container horizontally */
+  align-items: center;  /* Centers the container vertically */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;  /* Centers the cards within the container */
+  align-items: center;  /* Centers the cards vertically within the container */
+  gap: 16px;
+  margin: 16px 0;
+  color: black;
+ 
+}
+
+.card {
+  flex: 0 0 30%;  /* Ensure each card takes 30% of the container's width */
+  max-width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.included {
+color: black;
+font-weight: bold;
+}
+
+.not-included {
+color: #ccc;
+opacity: 0.9;
