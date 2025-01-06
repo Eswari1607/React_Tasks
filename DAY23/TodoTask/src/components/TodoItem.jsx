@@ -1,6 +1,6 @@
 // components/TodoItem.js
 import React, { useState } from 'react';
-import { FaChevronDown } from 'react-icons/fa';
+
 
 function TodoItem({ todo, updateTodo, deleteTodo }) {
   const [isEditing, setIsEditing] = useState(false);
