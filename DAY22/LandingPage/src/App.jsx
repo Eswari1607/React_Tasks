@@ -1,6 +1,6 @@
 import React,{useState,useRef} from 'react';
 import './App.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap-icons/font/bootstrap-icons.css'; 
 import TestimonialsSection from './components/TestimonialsSection';
 import CallToActionSection from './components/CallToActionSection';
 import Footer from './components/Footer';
