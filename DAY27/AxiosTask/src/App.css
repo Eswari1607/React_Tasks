@@ -1,0 +1,67 @@
+/* src/App.css */
+
+/* General styling */
+.app-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Button styling */
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(42, 44, 45);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+button:hover {
+  background-color: #5e6162;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* List item styling */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li button {
+  margin-left: 10px;
+  align-self: center;
+}
+
+/* Button container styling */
+button-container {
+  display: flex;
+  gap: 10px;
+}
